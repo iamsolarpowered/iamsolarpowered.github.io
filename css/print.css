@@ -1,5 +1,5 @@
 body {
-  font-size: 12pt;
+  font-size: 10pt;
 }
 
 a, a:visited {
@@ -14,5 +14,8 @@ a, a:visited {
   page-break-inside: avoid;
 }
 .main>section.experiences {
-  order: 1;
+  page-break-inside: auto;
+}
+.main>section.experiences .experience {
+  page-break-inside: avoid;
 }
