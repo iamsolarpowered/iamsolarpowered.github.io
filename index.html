@@ -23,7 +23,7 @@
               8265 Roberts Drive | White Lake, Michigan 48383
             </p>
             <p class="phone-email">
-              248.881.1302 | <a href="mailto:ben@t.apio.ca?subject=Regarding+your+resume" target="_blank">ben@t.apio.ca</a>
+              248.881.1302 | <a href="#" target="_blank" onclick="emailMe()">ben@t.apio.ca</a>
             </p>
           </div>
         </div>
@@ -211,6 +211,18 @@
         </ul>
       </section>
 
+      <section class="call-to-action">
+        <button type="button" name="email" onclick="emailMe()">Email</button>
+        <button type="button" name="print" onclick="window.print()">Print</button>
+      </section>
+
     </div>
+
+    <script type="text/javascript">
+      function emailMe() {
+        window.open("mailto:ben@t.apio.ca?subject=Regarding+your+resume");
+        preventDefault();
+      }
+    </script>
   </body>
 </html>
