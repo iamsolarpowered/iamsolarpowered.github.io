@@ -62,6 +62,14 @@ h2 {
 
 /* Sections */
 
+.info .secondary-info {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.info .description {
+  font-style: italic;
+}
 .info p {
   margin: 0;
 }
