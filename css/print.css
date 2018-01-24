@@ -1,5 +1,7 @@
 body {
   font-size: 10pt;
+  background: #fff;
+  color: #000;
 }
 
 a, a:visited {

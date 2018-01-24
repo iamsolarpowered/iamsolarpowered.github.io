@@ -1,6 +1,6 @@
 body {
-  background: #fcfcff;
-  color: #000;
+  background: #f9f9fc;
+  color: #100;
   font-family: Helvetica, sans-serif;
   font-size: 16px;
   margin: 0;
@@ -62,8 +62,6 @@ h2 {
 
 /* Sections */
 
-.info .name {
-}
 .info p {
   margin: 0;
 }
