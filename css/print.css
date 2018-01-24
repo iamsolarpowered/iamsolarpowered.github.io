@@ -1,0 +1,18 @@
+body {
+  font-size: 12pt;
+}
+
+a, a:visited {
+  color: inherit;
+}
+
+.main {
+  width: 100%;
+  max-width: 100%;
+}
+.main>section {
+  page-break-inside: avoid;
+}
+.main>section.experiences {
+  order: 1;
+}

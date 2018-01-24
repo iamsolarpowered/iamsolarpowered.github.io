@@ -1,0 +1,92 @@
+body {
+  background: #fcfcff;
+  color: #000;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 16px 0;
+  font-weight: 500;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 300%;
+}
+
+h2 {
+  font-size: 200%;
+  border-top: solid 2px #eee;
+  padding: 0.25em 0;
+}
+
+.main>section {
+  margin: 3em 0;
+}
+
+.main {
+  width: 95%;
+  max-width: 900px;
+}
+
+.row-list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.row-list li {
+  margin: 1em;
+}
+.row-list li ul {
+  list-style-type: square;
+  padding-left: 0;
+  font-size: 75%;
+}
+
+
+/* Sections */
+
+.info .name {
+}
+.info p {
+  margin: 0;
+}
+
+.experiences .experience {
+  margin: 2em 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.experiences .experience .title {
+  flex: 1;
+}
+.experiences .experience .name {
+  flex: 1;
+  font-weight: bold;
+}
+.experiences .experience .dates {
+  flex: 2;
+  text-align: right;
+}
+.experiences .experience .description {
+  flex: 4 100%;
+  margin-top: 0.5em;
+  font-size: 75%;
+}
