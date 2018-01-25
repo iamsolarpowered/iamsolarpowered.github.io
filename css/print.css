@@ -21,6 +21,7 @@ a, a:visited {
 .main>section.experiences .experience {
   page-break-inside: avoid;
 }
-.main>section.call-to-action {
+
+.call-to-action {
   display: none;
 }
