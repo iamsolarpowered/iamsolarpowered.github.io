@@ -70,6 +70,7 @@ h2 {
 }
 .info .description {
   font-style: italic;
+  margin-right: 2em;
 }
 .info p {
   margin: 0;
