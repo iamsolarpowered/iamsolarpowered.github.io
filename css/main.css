@@ -52,12 +52,14 @@ h2 {
 }
 .row-list li {
   margin: 1em;
-  margin-left: 1.5em;
 }
 .row-list li ul {
   list-style-type: square;
   padding-left: 0;
   font-size: 75%;
+}
+.row-list li ul li {
+  margin-left: 1.5em;
 }
 
 
@@ -118,4 +120,13 @@ h2 {
   background: blue;
   color: white;
   box-shadow: 0 0;
+}
+
+@media only screen and (max-width: 519px) {
+  .row-list {
+    flex-direction: column;
+  }
+  .tools .row-list {
+    flex-direction: row;
+  }
 }
